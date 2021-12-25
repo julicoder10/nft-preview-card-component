@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+body{
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    color: hsla(0, 0%, 100%, 0.548);
+}
+.cripto-name{
+    color: hsl(0, 0%, 100%);
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    height:400px;
+}
+.card{
+    width:250px;
+    height:425px;
+    margin-top:10%;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow:0px 15px 20px 10px rgb(15, 15, 15);
+    border-radius:10px;
+    background:hsl(216, 50%, 16%);
+}
+.sub-card{
+    width:220px;
+    margin-left:11px;
+}
+
+.sub-1{
+    align-self: center;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.sub-1 img{
+    width: 215px;
+    height: 215px;
+    border-radius:5px;
+}
+.sub-3{
+    font-size:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-2, .sub-3{
+    margin-left:5px;
+}
+.sub-4 p{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.cripto-quantity{
+    font-size:15px;
+    margin-right:auto;
+    color:hsl(178, 100%, 50%);
+    align-items:center;
+}
+.name{
+    color:hsl(0, 0%, 100%);
+}
+.avatar{
+    width:30px;
+    height:30px;
+}
